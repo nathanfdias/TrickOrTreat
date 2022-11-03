@@ -1,0 +1,55 @@
+.banner-container{
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4),
+    rgba(0, 0, 0, 0.2)),url(../assets/33Z_2105.w026.n002.403B.p1.403.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.banner-content{
+    height: 60%;
+    width: 58%;
+    position: relative;
+    top: 20%;
+    left: 4%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-inline: 30px;
+    gap: 20px;
+}
+
+.banner-title{
+    font-size: 2.2rem;
+    color: orange;
+}
+
+.banner-description{
+    font-size: 1.8rem;
+    max-width: 700px;
+}
+
+.banner-button{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+}
+
+.banner-button a{
+    background-color: orange;
+    color: black;
+    border: transparent;
+    transition: 0.4s linear;
+    border: 1px solid orange;
+    padding-inline: 40px;
+    padding-block: 10px;
+}
+
+.banner-button a:hover{
+    color: white;
+    border: 1px solid white;
+    background-color: rgba(255, 166, 0, 0);
+    transition: 0.4s linear;
+}
